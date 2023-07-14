@@ -8,8 +8,9 @@ import Hello from './Main.js';
 function Home() {
   return (
     <div className="home">
+        <h1> Personal Portfolio Project</h1>
       <div className="about">
-        <h2> Hi, My Name is Shankar</h2>
+        <h2> Hi, I'm Shankar</h2>
         <div className="prompt">
           <p>I am a junior fullstack developer.</p>
           <p><i>I am highly interested to collaborate and contribute for projects</i></p>
@@ -18,7 +19,7 @@ function Home() {
           <GithubIcon />
         </div>
       </div>
-      <Hello />
+
     </div>
   );
 }

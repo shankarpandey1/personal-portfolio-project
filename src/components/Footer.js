@@ -7,8 +7,13 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
+    
+          
     <div className="footer">
       <div className="profile">
+      <h3>Contact</h3>
+          <p>Email: info@info.com</p>
+          <p>Phone: 444-444-4444</p>
         <InstagramIcon />
         <TwitterIcon />
         <FacebookIcon />
@@ -16,6 +21,7 @@ function Footer() {
       </div>
       <p> &copy; 2023 Shankar Pandey</p>
     </div>
+    
   );
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Main.css";
 
 
-function Hello() {
+function Skills() {
   return (
     <div className="hello">
      <div className="skills">
@@ -31,4 +31,4 @@ function Hello() {
   );
 }
 
-export default Hello;
+export default Skills;
