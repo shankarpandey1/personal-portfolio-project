@@ -7,22 +7,32 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    
-          
-    <div className="footer">
-      <div className="profile">
-      <h3>Contact</h3>
+    <footer>
+      <div className="footer-content">
+        <div className="contact">
+        <h3>Contact</h3>
           <p>Email: info@info.com</p>
           <p>Phone: 444-444-4444</p>
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
-      </div>
-      <p> &copy; 2023 Shankar Pandey</p>
+        </div>
+      
+        
+      <div className="social-media">
+      <h3>Follow Me</h3>
+      <ul>
+      <li><InstagramIcon /></li>
+      <li><TwitterIcon /></li>
+      <li><FacebookIcon /></li>
+      <li><LinkedInIcon /></li>
+      </ul>
     </div>
-    
-  );
+<div className="container">
+      <p> &copy; 2023 Shankar Pandey</p>
+      </div>
+    </div>
+        
+  </footer>  
+  
+);
 }
 
 export default Footer;
