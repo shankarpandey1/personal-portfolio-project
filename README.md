@@ -6,4 +6,4 @@
 
 
 # demo
-https://shankarpandey1.github.ino/personal-portfolio-project/
+https://shankarpandey1.github.io/personal-portfolio-project/

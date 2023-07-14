@@ -31,32 +31,34 @@
 footer {
   background-color: #9c9df1;
   color: #fcfcfc;
-  padding: 10px;
-  margin-top: auto;
-  margin-bottom: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 5px;
   height:fit-content;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
 .contact {
-  display: flex;
+  display: box;
   flex-direction: column;
+  margin-top:0;
+  padding-left:15px;
 }
 
 .contact h3 {
   font-size: 1.2rem;
-  margin-bottom: 10px;
+   margin-bottom:0px;
 }
 
 
 .social-media h3 {
-  margin-top:50px;
+  margin-top:30px;
 
 }
 
@@ -68,11 +70,11 @@ footer {
 .social-media ul li {
   list-style-type: none;
   size: 20px;
-  padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .container p {
-  padding-top:40px;
+  padding-top:30px;
+  padding-right:10px;
 }
 
